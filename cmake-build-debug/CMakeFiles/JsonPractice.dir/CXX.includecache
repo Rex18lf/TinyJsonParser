@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pluto/C++Proj/JsonPractice/json.h
+string
+-
+vector
+-
+unordered_map
+-
+cassert
+-
+sstream
+-
+iostream
+-
+fstream
+-
+stdexcept
+-
+
+/Users/pluto/C++Proj/JsonPractice/main.cpp
+iostream
+-
+string
+-
+cstddef
+-
+json.h
+/Users/pluto/C++Proj/JsonPractice/json.h
+
+/Users/pluto/C++Proj/JsonPractice/test.cpp
+json.h
+/Users/pluto/C++Proj/JsonPractice/json.h
+iostream
+-
+
