@@ -1,2 +1,7 @@
 # TinyJsonParser
-tiny json_parser for C++ practice
+为学习C++写的minijson解析器。
+可以读取json文档并储存数据。
+
+parse("...")为处理数据的入口，里面是要处理的文件名。得到的数据可以用write_in_file保存，虽然我觉得有点多此一举。
+因为是学C++仿写的第一个程序，写的难免有疏漏和不精。
+只能实现最基本的json解析功能。
